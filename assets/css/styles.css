@@ -533,7 +533,6 @@ img {
   border: none;
   color: rgba(0, 0, 0, 0.85);
   font-size: 2rem;
-  padding: 0.5rem 0.8rem;
   cursor: pointer;
   border-radius: 50%;
   backdrop-filter: blur(4px);
@@ -544,7 +543,6 @@ img {
   top: 2rem;
   right: 2rem;
   font-size: 2.4rem;
-  background: rgba(226, 226, 226, 0);
 }
 .lightbox__prev {
   left: 1.25rem;
