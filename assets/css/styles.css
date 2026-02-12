@@ -321,6 +321,9 @@ img {
 }
 .work__img img {
   transition: 1s;
+  width: auto;
+  height: 100%;
+  object-fit: cover;
 }
 .work__img img:hover {
   transform: scale(1.1);
@@ -526,19 +529,22 @@ img {
 .lightbox__prev,
 .lightbox__next {
   position: absolute;
-  background: rgba(0, 0, 0, 0);
+  background: rgba(226, 226, 226, 0.5);
   border: none;
   color: rgba(0, 0, 0, 0.85);
   font-size: 2rem;
   padding: 0.5rem 0.8rem;
   cursor: pointer;
-  border-radius: 0.5rem;
+  border-radius: 50%;
   backdrop-filter: blur(4px);
+  width: 3rem;
+  height: 3rem;
 }
 .lightbox__close {
   top: 2rem;
   right: 2rem;
   font-size: 2.4rem;
+  background: rgba(226, 226, 226, 0);
 }
 .lightbox__prev {
   left: 1.25rem;
